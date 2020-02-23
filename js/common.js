@@ -21,6 +21,13 @@ function convertObj(obj)
     return converted;
 }
 
+//Add class
+function addClass(obj, className) 
+{
+    var element = convertObj(obj);
+    element.classList.add(className);
+}
+
 // Scroll page to certain element
 function scrollTo(obj) 
 {

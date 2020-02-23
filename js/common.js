@@ -25,7 +25,7 @@ function convertObj(obj)
 function addClass(obj, className) 
 {
     var element = convertObj(obj);
-    element.classList.add(className);
+    element.addClass(className);
 }
 
 // Scroll page to certain element
